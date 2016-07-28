@@ -1,0 +1,115 @@
+.container{
+	width: 100%;
+	max-width: 960px;
+	margin: auto;
+	text-align: center;
+}
+
+body{
+	background-image: url("../images/background.jpg");
+	background-size: 100%;
+}
+
+#main-container{
+	display: inline-block;
+}
+
+img{
+	width: 75px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+h1{
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 20px;
+	margin: 3px;
+}
+
+p {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 15px;
+	margin: 2px;
+	font-weight: bold;
+}
+
+.characters {
+	float: left;
+	margin: 5px;
+	border-style: solid;
+	padding: 0 15px 0 15px;
+	border-color: green;
+	background-color: lightgrey;
+}
+
+#battlefield{
+	width: 100%;
+}
+
+#enemies > #main-container > .characters{
+	border-color: black;
+	background-color: red;
+}
+
+#defender > .characters{
+	background-color: black;
+	color: white;
+}
+
+#sub-container {
+	clear: both;
+}
+
+.sub{
+	clear: both;
+}
+
+#attacker{
+	display: inline-block;
+	margin-right: 75px;
+}
+
+#attacker > .characters > img{
+	width: 200px;
+}
+
+#defender{
+	display: inline-block;
+	margin-left: 75px;
+}
+
+#defender > .characters > img{
+	width: 200px;
+}
+
+button{
+	padding: 10px 15px 10px 15px;
+	margin: 5px
+}
+
+#fight{
+	display: inline-block;
+}
+
+#fight > h1{
+	color: maroon;
+}
+
+#fight > button{
+	background-color: lightgreen;
+}
+
+#messages > p{
+	margin-top: 10px;
+	line-height: 20px;
+	border-style: dashed;
+	border-width: 1px;
+	padding: 10px;
+	color: blue;
+	width: 400px;
+	display: inline-block;
+}
+
+#restart{
+	background-color: pink;
+}

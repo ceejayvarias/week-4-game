@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Avatar: The Last Airbender Game</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+	<div class="container">
+		<div id="main-container">
+			<h1>Benders Available</h1>
+			<div class="characters" id="aang">
+				<p>Aang</p>
+				<img src="images/aang.jpg">
+				<p class="hp"></p>
+			</div>
+			<div class="characters" id="zuko">
+				<p>Zuko</p>
+				<img id="zuko" src="images/zuko.jpg">
+				<p class="hp"></p>
+			</div>
+			<div class="characters" id="katara">
+				<p>Katara</p>
+				<img id="katara" src="images/katara.jpg">
+				<p class="hp"></p>
+			</div>
+			<div class="characters" id="toph">
+				<p>Toph</p>
+				<img id="toph" src="images/toph.jpg">
+				<p class="hp"></p>
+			</div>
+		</div>
+		<div id="sub-container">
+			<div class="sub" id="enemies">
+				<h1>Enemies Available to Attack</h1>
+			</div>
+			<div id="battlefield">
+				<div class="sub" id="attacker">
+					<h1>Your Bender</h1>
+				</div>
+				<div class="sub" id="defender">
+					<h1>Enemy Bender</h1>
+				</div>
+			</div>
+			<div class="sub" id="fight">
+				<h1>Fight Section</h1>
+				<button id="fight">Fight!</button>
+			</div>
+			<div class="sub" id="messages">
+				<p></p>
+			</div>
+		</div>
+	</div>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+		<script src="javascript/game.js"></script>
+	</body>
+</html>
